@@ -46,7 +46,6 @@ print("This is not indented and is outside the if block.")
 # what is the use of print() function in python?
 # The print() function in Python is used to output text or other data to the console. It is a built-in function that allows you to display information to the user or for debugging purposes. The print() function can take multiple arguments, which will be printed with a space in between by default. For example:
 print("Hello, World!")  
-print("The value of a is:", a)
 # In this example, the first print statement outputs the string "Hello, World!" to the console. The second print statement outputs the string "The value of a is:" followed by the value of the variable a. The print() function can also be used to format output using f-strings or the format() method for more complex output formatting. For example:
 name = "Alice"
 age = 30
