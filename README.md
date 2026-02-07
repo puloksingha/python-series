@@ -12,7 +12,10 @@ python/
 │   └── notes-01.md          # Comprehensive notes for Day 1
 ├── Day-02/                   # Day 2: Data Types in Python
 │   ├── index.py             # Data types demonstration
-│   └── note-02.md           # Comprehensive notes for Day 2
+│   └── notes-02.md          # Comprehensive notes for Day 2
+├── Day-03/                   # Day 3: Variables and Operators
+│   ├── index.py             # Variables and operators examples
+│   └── notes-03.md          # Comprehensive notes for Day 3
 └── ...                       # More days to be added
 ```
 
@@ -43,7 +46,22 @@ This course progresses through fundamental Python concepts, building a solid fou
 
 **Files:**
 - [index.py](Day-02/index.py) - Data types demonstration
-- [note-02.md](Day-02/note-02.md) - Detailed notes
+- [notes-02.md](Day-02/notes-02.md) - Detailed notes
+
+### **Day 03: Variables and Operators**
+- Understanding variables as data containers
+- Variable naming rules and conventions
+- Working with different variable types
+- Collections: Lists and Tuples
+- Arithmetic operators (+, -, *, /, %, **, //)
+- Comparison operators (==, !=, >, <, >=, <=)
+- Logical operators (and, or, not)
+- Assignment operators (=, +=, -=, *=, /=, etc.)
+- Practical examples and use cases
+
+**Files:**
+- [index.py](Day-03/index.py) - Variables and operators demonstration
+- [notes-03.md](Day-03/notes-03.md) - Detailed notes
 
 ---
 
@@ -120,6 +138,16 @@ python index.py
 | **str** | `"Hello"` | Text, names, messages |
 | **bool** | `True`, `False` | Logical conditions |
 
+### Day 03 - Variables and Operators
+| Concept | Description |
+|---------|-------------|
+| **Variables** | Containers that store data values |
+| **Naming Rules** | Must start with letter/underscore, case-sensitive |
+| **Arithmetic** | `+`, `-`, `*`, `/`, `%`, `**`, `//` |
+| **Comparison** | `==`, `!=`, `>`, `<`, `>=`, `<=` |
+| **Logical** | `and`, `or`, `not` |
+| **Assignment** | `=`, `+=`, `-=`, `*=`, `/=`, etc. |
+
 ---
 
 ## 📝 Notes on Each Day
@@ -135,7 +163,16 @@ python index.py
 - Explains how to create and work with different data types
 - Shows how to check variable types
 - Includes practical examples and use cases
-- [Full Notes →](Day-02/note-02.md)
+- [Full Notes →](Day-02/notes-02.md)
+
+### Day 03
+- Comprehensive guide to variables and naming conventions
+- Complete coverage of all operator types
+- Arithmetic operations with detailed examples
+- Comparison and logical operations
+- Assignment operators and shortcuts
+- Truth tables and practical applications
+- [Full Notes →](Day-03/notes-03.md)
 
 ---
 
@@ -210,7 +247,7 @@ cd ..
 
 - [x] Day 01 - Python Fundamentals
 - [x] Day 02 - Data Types in Python
-- [ ] Day 03 - Variables and Operators
+- [x] Day 03 - Variables and Operators
 - [ ] Day 04 - Control Flow (if/else)
 - [ ] Day 05 - Loops (for/while)
 - [ ] Day 06 - Functions
@@ -248,5 +285,5 @@ This repository is designed to provide a structured, progressive learning path f
 
 ---
 
-*Last Updated: February 6, 2026*
+*Last Updated: February 7, 2026*
 *Author: Pulok*
