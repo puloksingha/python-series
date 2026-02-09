@@ -11,11 +11,14 @@ python/
 │   ├── helloworld.py        # Basic Python concepts and introduction
 │   └── notes-01.md          # Comprehensive notes for Day 1
 ├── Day-02/                   # Day 2: Data Types in Python
-│   ├── index.py             # Data types demonstration
+│   ├── script.py            # Data types demonstration
 │   └── notes-02.md          # Comprehensive notes for Day 2
 ├── Day-03/                   # Day 3: Variables and Operators
-│   ├── index.py             # Variables and operators examples
+│   ├── script.py            # Variables and operators examples
 │   └── notes-03.md          # Comprehensive notes for Day 3
+├── Day-04/                   # Day 4: Control Flow and Logical Operators
+│   ├── script.py            # Control flow and logical operators examples
+│   └── notes-04.md          # Comprehensive notes for Day 4
 └── ...                       # More days to be added
 ```
 
@@ -45,7 +48,7 @@ This course progresses through fundamental Python concepts, building a solid fou
 - Practical examples and use cases
 
 **Files:**
-- [index.py](Day-02/index.py) - Data types demonstration
+- [script.py](Day-02/script.py) - Data types demonstration
 - [notes-02.md](Day-02/notes-02.md) - Detailed notes
 
 ### **Day 03: Variables and Operators**
@@ -60,8 +63,21 @@ This course progresses through fundamental Python concepts, building a solid fou
 - Practical examples and use cases
 
 **Files:**
-- [index.py](Day-03/index.py) - Variables and operators demonstration
+- [script.py](Day-03/script.py) - Variables and operators demonstration
 - [notes-03.md](Day-03/notes-03.md) - Detailed notes
+
+### **Day 04: Control Flow and Logical Operators**
+- Conditional statements: if, if-else, if-elif-else
+- Understanding control flow and decision making
+- Logical operators: and, or, not
+- Truth tables for logical operations
+- Combining multiple conditions
+- Practical decision-making patterns
+- Complex conditional expressions
+
+**Files:**
+- [script.py](Day-04/script.py) - Control flow and logical operators examples
+- [notes-04.md](Day-04/notes-04.md) - Detailed notes
 
 ---
 
@@ -148,6 +164,16 @@ python script.py
 | **Logical** | `and`, `or`, `not` |
 | **Assignment** | `=`, `+=`, `-=`, `*=`, `/=`, etc. |
 
+### Day 04 - Control Flow and Logical Operators
+| Concept | Description |
+|---------|-------------|
+| **if Statement** | Execute code based on a condition |
+| **if-else** | Two alternative code paths |
+| **if-elif-else** | Multiple conditions to check |
+| **and Operator** | Both conditions must be True |
+| **or Operator** | At least one condition must be True |
+| **not Operator** | Reverses the result of a condition |
+
 ---
 
 ## 📝 Notes on Each Day
@@ -173,6 +199,15 @@ python script.py
 - Assignment operators and shortcuts
 - Truth tables and practical applications
 - [Full Notes →](Day-03/notes-03.md)
+
+### Day 04
+- Understanding control flow and decision making
+- Detailed guide to if, if-else, and if-elif-else statements
+- Complete coverage of logical operators (and, or, not)
+- Truth tables for each logical operator
+- Combining multiple conditions effectively
+- Practical examples for real-world scenarios
+- [Full Notes →](Day-04/notes-04.md)
 
 ---
 
@@ -248,7 +283,7 @@ cd ..
 - [x] Day 01 - Python Fundamentals
 - [x] Day 02 - Data Types in Python
 - [x] Day 03 - Variables and Operators
-- [ ] Day 04 - Control Flow (if/else)
+- [x] Day 04 - Control Flow and Logical Operators
 - [ ] Day 05 - Loops (for/while)
 - [ ] Day 06 - Functions
 - [ ] Day 07 - Lists and Collections
@@ -285,5 +320,5 @@ This repository is designed to provide a structured, progressive learning path f
 
 ---
 
-*Last Updated: February 7, 2026*
+*Last Updated: February 9, 2026*
 *Author: Pulok*
