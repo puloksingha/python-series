@@ -97,7 +97,7 @@ python helloworld.py
 
 # For Day 02
 cd ../Day-02
-python index.py
+python script.py
 ```
 
 ---
