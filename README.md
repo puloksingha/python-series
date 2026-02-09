@@ -16,6 +16,9 @@ python/
 ├── Day-03/                   # Day 3: Variables and Operators
 │   ├── index.py             # Variables and operators examples
 │   └── notes-03.md          # Comprehensive notes for Day 3
+├── Day-04/                   # Day 4: Control Flow and Logical Operators
+│   ├── script.py            # Control flow examples
+│   └── notes-04.md          # Comprehensive notes for Day 4
 └── ...                       # More days to be added
 ```
 
@@ -62,6 +65,24 @@ This course progresses through fundamental Python concepts, building a solid fou
 **Files:**
 - [index.py](Day-03/index.py) - Variables and operators demonstration
 - [notes-03.md](Day-03/notes-03.md) - Detailed notes
+
+### **Day 04: Control Flow and Logical Operators**
+- Understanding control flow in programming
+- Conditional statements (if/else)
+- The if statement - executing code based on conditions
+- The if-else statement - alternative execution paths
+- The if-elif-else statement - multiple condition checking
+- Logical operators (and, or, not)
+- The `and` operator - combining conditions (all must be true)
+- The `or` operator - at least one condition must be true
+- The `not` operator - negating conditions
+- Combining multiple logical operators
+- Truth tables and operator precedence
+- Practical examples and use cases
+
+**Files:**
+- [script.py](Day-04/script.py) - Control flow and logical operators demonstration
+- [notes-04.md](Day-04/notes-04.md) - Detailed notes
 
 ---
 
@@ -148,6 +169,17 @@ python script.py
 | **Logical** | `and`, `or`, `not` |
 | **Assignment** | `=`, `+=`, `-=`, `*=`, `/=`, etc. |
 
+### Day 04 - Control Flow and Logical Operators
+| Concept | Description |
+|---------|-------------|
+| **Control Flow** | Order in which statements are executed |
+| **if statement** | Execute code only if condition is true |
+| **if-else** | Execute different code based on true/false |
+| **if-elif-else** | Check multiple conditions in sequence |
+| **and operator** | Returns True if all conditions are true |
+| **or operator** | Returns True if at least one condition is true |
+| **not operator** | Reverses the result of a condition |
+
 ---
 
 ## 📝 Notes on Each Day
@@ -173,6 +205,17 @@ python script.py
 - Assignment operators and shortcuts
 - Truth tables and practical applications
 - [Full Notes →](Day-03/notes-03.md)
+
+### Day 04
+- Understanding control flow and execution order
+- Detailed coverage of conditional statements
+- if, if-else, and if-elif-else structures
+- Complete guide to logical operators
+- Truth tables for and, or, not operators
+- Combining multiple logical operators
+- Operator precedence and evaluation order
+- Practical examples with real-world scenarios
+- [Full Notes →](Day-04/notes-04.md)
 
 ---
 
@@ -248,7 +291,7 @@ cd ..
 - [x] Day 01 - Python Fundamentals
 - [x] Day 02 - Data Types in Python
 - [x] Day 03 - Variables and Operators
-- [ ] Day 04 - Control Flow (if/else)
+- [x] Day 04 - Control Flow and Logical Operators
 - [ ] Day 05 - Loops (for/while)
 - [ ] Day 06 - Functions
 - [ ] Day 07 - Lists and Collections
@@ -285,5 +328,5 @@ This repository is designed to provide a structured, progressive learning path f
 
 ---
 
-*Last Updated: February 7, 2026*
-*Author: Pulok*
+*Last Updated: February 9, 2026*
+*Author: Pulok Singha*
