@@ -19,6 +19,9 @@ python/
 ├── Day-04/                   # Day 4: Control Flow and Logical Operators
 │   ├── script.py            # Control flow and logical operators examples
 │   └── notes-04.md          # Comprehensive notes for Day 4
+├── Day-05/                   # Day 5: Loops
+│   ├── main.py              # Loop examples (for, while, nested)
+│   └── notes-05.md          # Comprehensive notes for Day 5
 └── ...                       # More days to be added
 ```
 
@@ -78,6 +81,20 @@ This course progresses through fundamental Python concepts, building a solid fou
 **Files:**
 - [script.py](Day-04/script.py) - Control flow and logical operators examples
 - [notes-04.md](Day-04/notes-04.md) - Detailed notes
+
+### **Day 05: Loops**
+- for loops - Iterating over sequences and ranges
+- while loops - Condition-based repetition
+- Nested loops - Loops within loops
+- break statement - Exit loops prematurely
+- continue statement - Skip iterations
+- Loop else blocks - Code after loop completion
+- Simulating do-while loops
+- Loop control and best practices
+
+**Files:**
+- [main.py](Day-05/main.py) - Loop demonstration
+- [notes-05.md](Day-05/notes-05.md) - Detailed notes
 
 ---
 
@@ -174,6 +191,16 @@ python script.py
 | **or Operator** | At least one condition must be True |
 | **not Operator** | Reverses the result of a condition |
 
+### Day 05 - Loops
+| Concept | Description |
+|---------|-------------|
+| **for Loop** | Iterate over sequences (lists, strings, ranges) |
+| **while Loop** | Repeat code while condition is True |
+| **break** | Exit loop immediately |
+| **continue** | Skip to next iteration |
+| **Nested Loops** | Loop inside another loop |
+| **loop-else** | Execute block after loop completes normally |
+
 ---
 
 ## 📝 Notes on Each Day
@@ -208,6 +235,17 @@ python script.py
 - Combining multiple conditions effectively
 - Practical examples for real-world scenarios
 - [Full Notes →](Day-04/notes-04.md)
+
+### Day 05
+- Understanding loops and when to use them
+- Comprehensive guide to for loops and iteration
+- Detailed coverage of while loops and condition-based repetition
+- Loop control with break and continue statements
+- Nested loops for multi-dimensional iteration
+- Special loop features: else blocks and simulating do-while
+- Range function for generating number sequences
+- Best practices and common loop patterns
+- [Full Notes →](Day-05/notes-05.md)
 
 ---
 
@@ -284,7 +322,7 @@ cd ..
 - [x] Day 02 - Data Types in Python
 - [x] Day 03 - Variables and Operators
 - [x] Day 04 - Control Flow and Logical Operators
-- [ ] Day 05 - Loops (for/while)
+- [x] Day 05 - Loops (for/while)
 - [ ] Day 06 - Functions
 - [ ] Day 07 - Lists and Collections
 - [ ] ... (More days coming)
@@ -320,5 +358,5 @@ This repository is designed to provide a structured, progressive learning path f
 
 ---
 
-*Last Updated: February 9, 2026*
+*Last Updated: February 10, 2026*
 *Author: Pulok*
