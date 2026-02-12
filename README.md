@@ -22,7 +22,12 @@ python/
 ├── Day-05/                   # Day 5: Loops
 │   ├── main.py              # Loop examples (for, while, nested)
 │   └── notes-05.md          # Comprehensive notes for Day 5
-└── ...                       # More days to be added
+├── Day-06/                   # Day 6: Functions
+│   ├── main.py              # Function examples and demonstrations
+│   └── notes-06.md          # Comprehensive notes for Day 6
+└── Day-07/                   # Day 7: Data Structures
+    ├── main.py              # Data structures examples (lists, tuples, dicts, sets)
+    └── notes-07.md          # Comprehensive notes for Day 7
 ```
 
 ## 🎯 Learning Objectives
@@ -96,6 +101,38 @@ This course progresses through fundamental Python concepts, building a solid fou
 - [main.py](Day-05/main.py) - Loop demonstration
 - [notes-05.md](Day-05/notes-05.md) - Detailed notes
 
+### **Day 06: Functions**
+- Defining and calling functions
+- Function parameters and arguments
+- Return values and multiple returns
+- Default parameters and keyword arguments
+- Variable-length arguments (*args, **kwargs)
+- Lambda functions (anonymous functions)
+- Built-in functions: map(), filter(), reduce(), sorted()
+- Scope and lifetime of variables (local vs. global)
+- Docstrings and function documentation
+- Best practices for writing functions
+
+**Files:**
+- [main.py](Day-06/main.py) - Functions demonstration
+- [notes-06.md](Day-06/notes-06.md) - Detailed notes
+
+### **Day 07: Data Structures**
+- Lists: Ordered, mutable collections
+- Tuples: Ordered, immutable collections
+- Dictionaries: Key-value pairs
+- Sets: Unordered, unique elements
+- List/Set/Dictionary comprehensions
+- Common methods for each data structure
+- Performance comparison and when to use each
+- Nested data structures
+- Real-world examples and use cases
+- Decision tree for choosing data structures
+
+**Files:**
+- [main.py](Day-07/main.py) - Data structures demonstration
+- [notes-07.md](Day-07/notes-07.md) - Detailed notes
+
 ---
 
 ## 🚀 Getting Started
@@ -131,6 +168,16 @@ python helloworld.py
 # For Day 02
 cd ../Day-02
 python script.py
+
+# For Day 05, 06, 07
+cd ../Day-05
+python main.py
+
+cd ../Day-06
+python main.py
+
+cd ../Day-07
+python main.py
 ```
 
 ---
@@ -201,6 +248,26 @@ python script.py
 | **Nested Loops** | Loop inside another loop |
 | **loop-else** | Execute block after loop completes normally |
 
+### Day 06 - Functions
+| Concept | Description |
+|---------|-------------|
+| **def** | Keyword to define a function |
+| **Parameters** | Variables in function definition |
+| **Arguments** | Values passed when calling function |
+| **return** | Send back a value from function |
+| **Lambda** | Anonymous single-expression functions |
+| ***args** | Variable-length positional arguments |
+| **\*\*kwargs** | Variable-length keyword arguments |
+| **Scope** | Variable visibility (local vs. global) |
+
+### Day 07 - Data Structures
+| Data Structure | Ordered | Mutable | Duplicates | Syntax |
+|----------------|---------|---------|------------|--------|
+| **List** | Yes | Yes | Yes | `[]` |
+| **Tuple** | Yes | No | Yes | `()` |
+| **Dictionary** | Yes (3.7+) | Yes | Keys: No | `{}` |
+| **Set** | No | Yes | No | `{}` or `set()` |
+
 ---
 
 ## 📝 Notes on Each Day
@@ -246,6 +313,28 @@ python script.py
 - Range function for generating number sequences
 - Best practices and common loop patterns
 - [Full Notes →](Day-05/notes-05.md)
+
+### Day 06
+- Complete guide to defining and using functions
+- Function parameters, arguments, and return values
+- Default and keyword arguments
+- Variable-length arguments (*args, **kwargs)
+- Lambda functions and functional programming
+- Built-in functions: map(), filter(), reduce(), sorted()
+- Understanding scope and variable lifetime
+- Best practices for writing clean, reusable functions
+- [Full Notes →](Day-06/notes-06.md)
+
+### Day 07
+- Comprehensive guide to Python's core data structures
+- Lists: Creating, accessing, modifying, and list methods
+- Tuples: Immutable sequences and tuple packing/unpacking
+- Dictionaries: Key-value pairs, methods, and iteration
+- Sets: Unique elements and mathematical set operations
+- Comprehensions for lists, sets, and dictionaries
+- Performance comparison and best practices
+- Real-world examples and decision tree for choosing structures
+- [Full Notes →](Day-07/notes-07.md)
 
 ---
 
@@ -323,8 +412,9 @@ cd ..
 - [x] Day 03 - Variables and Operators
 - [x] Day 04 - Control Flow and Logical Operators
 - [x] Day 05 - Loops (for/while)
-- [ ] Day 06 - Functions
-- [ ] Day 07 - Lists and Collections
+- [x] Day 06 - Functions
+- [x] Day 07 - Data Structures (Lists, Tuples, Dicts, Sets)
+- [ ] Day 08 - Coming Soon...
 - [ ] ... (More days coming)
 
 ---
@@ -358,5 +448,5 @@ This repository is designed to provide a structured, progressive learning path f
 
 ---
 
-*Last Updated: February 10, 2026*
-*Author: Pulok*
+*Last Updated: February 12, 2026*
+*Author: Pulok Singha*
