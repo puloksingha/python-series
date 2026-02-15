@@ -26,8 +26,11 @@ python/
 │   ├── main.py              # Function examples and demonstrations
 │   └── notes-06.md          # Comprehensive notes for Day 6
 └── Day-07/                   # Day 7: Data Structures
-    ├── main.py              # Data structures examples (lists, tuples, dicts, sets)
-    └── notes-07.md          # Comprehensive notes for Day 7
+│   ├── main.py              # Data structures examples (lists, tuples, dicts, sets)
+│   └── notes-07.md          # Comprehensive notes for Day 7
+└── Day-08/                   # Day 8: String Manipulation
+    ├── main.py              # String manipulation examples
+    └── notes-08.md          # Comprehensive notes for Day 8
 ```
 
 ## 🎯 Learning Objectives
@@ -132,6 +135,22 @@ This course progresses through fundamental Python concepts, building a solid fou
 **Files:**
 - [main.py](Day-07/main.py) - Data structures demonstration
 - [notes-07.md](Day-07/notes-07.md) - Detailed notes
+
+### **Day 08: String Manipulation**
+- String basics: Creating and properties
+- String indexing and slicing
+- String formatting (%, .format(), f-strings)
+- String methods: upper(), lower(), replace(), split(), join()
+- String searching: find(), index(), in operator
+- String checking: startswith(), endswith(), isdigit(), isalpha()
+- String building and concatenation
+- Regular expressions for pattern matching
+- Escape sequences and special characters
+- Practical string manipulation examples
+
+**Files:**
+- [main.py](Day-08/main.py) - String manipulation examples
+- [notes-08.md](Day-08/notes-08.md) - Detailed notes
 
 ---
 
@@ -268,6 +287,17 @@ python main.py
 | **Dictionary** | Yes (3.7+) | Yes | Keys: No | `{}` |
 | **Set** | No | Yes | No | `{}` or `set()` |
 
+### Day 08 - String Manipulation
+| Concept | Common Methods | Use Case |
+|---------|-----------------|----------|
+| **Case Conversion** | `.upper()`, `.lower()`, `.capitalize()` | Standardizing text |
+| **String Search** | `.find()`, `.index()`, `.in` operator | Locating substrings |
+| **String Replace** | `.replace()`, `.strip()`, `.lstrip()`, `.rstrip()` | Text modification |
+| **String Split/Join** | `.split()`, `.join()` | Parsing and combining text |
+| **String Formatting** | `%`, `.format()`, `f-strings` | Dynamic text creation |
+| **String Checking** | `.startswith()`, `.endswith()`, `.isdigit()`, `.isalpha()` | Validation |
+| **Slicing** | `[start:end:step]` | Extracting parts of strings |
+
 ---
 
 ## 📝 Notes on Each Day
@@ -335,6 +365,19 @@ python main.py
 - Performance comparison and best practices
 - Real-world examples and decision tree for choosing structures
 - [Full Notes →](Day-07/notes-07.md)
+
+### Day 08
+- Complete guide to string manipulation in Python
+- String creation, properties, and indexing
+- Slicing strings and extracting substrings
+- Three ways to format strings: %, .format(), f-strings
+- Essential string methods for case, splitting, replacing, and searching
+- String validation methods: isdigit(), isalpha(), isalnum(), etc.
+- Building and concatenating strings efficiently
+- Introduction to regular expressions (regex) for pattern matching
+- Escape sequences and special characters
+- Practical examples for real-world string manipulation tasks
+- [Full Notes →](Day-08/notes-08.md)
 
 ---
 
@@ -414,7 +457,8 @@ cd ..
 - [x] Day 05 - Loops (for/while)
 - [x] Day 06 - Functions
 - [x] Day 07 - Data Structures (Lists, Tuples, Dicts, Sets)
-- [ ] Day 08 - Coming Soon...
+- [x] Day 08 - String Manipulation
+- [ ] Day 09 - Coming Soon...
 - [ ] ... (More days coming)
 
 ---
@@ -448,5 +492,5 @@ This repository is designed to provide a structured, progressive learning path f
 
 ---
 
-*Last Updated: February 12, 2026*
+*Last Updated: February 15, 2026*
 *Author: Pulok Singha*
