@@ -31,6 +31,12 @@ python/
 └── Day-08/                   # Day 8: String Manipulation
     ├── main.py              # String manipulation examples
     └── notes-08.md          # Comprehensive notes for Day 8
+└── Day-09/                   # Day 9: Object-Oriented Programming (OOP)
+   ├── main.py              # OOP examples (classes, inheritance, encapsulation)
+   └── notes-09.md          # Comprehensive notes for Day 9
+└── Day-10/                   # Day 10: File Handling
+   ├── main.py              # File operations, CSV, JSON, and patterns
+   └── notes-10.md          # Comprehensive notes for Day 10
 ```
 
 ## 🎯 Learning Objectives
@@ -152,6 +158,31 @@ This course progresses through fundamental Python concepts, building a solid fou
 - [main.py](Day-08/main.py) - String manipulation examples
 - [notes-08.md](Day-08/notes-08.md) - Detailed notes
 
+### **Day 09: Object-Oriented Programming (OOP)**
+- Classes and objects
+- Attributes, methods, and `self`
+- Encapsulation (public, protected, private)
+- Inheritance (single and multiple)
+- Polymorphism and method overriding
+- Special methods (dunder/magic methods)
+
+**Files:**
+- [main.py](Day-09/main.py) - OOP examples
+- [notes-09.md](Day-09/notes-09.md) - Detailed notes
+
+### **Day 10: File Handling**
+- Reading and writing text files
+- File modes and binary files
+- File pointers: `tell()` and `seek()`
+- `pathlib` for path operations
+- CSV read/write with `csv`
+- JSON read/write with `json`
+- Error handling and practical patterns
+
+**Files:**
+- [main.py](Day-10/main.py) - File handling examples
+- [notes-10.md](Day-10/notes-10.md) - Detailed notes
+
 ---
 
 ## 🚀 Getting Started
@@ -196,6 +227,16 @@ cd ../Day-06
 python main.py
 
 cd ../Day-07
+python main.py
+
+# For Day 08, 09, 10
+cd ../Day-08
+python main.py
+
+cd ../Day-09
+python main.py
+
+cd ../Day-10
 python main.py
 ```
 
@@ -298,6 +339,26 @@ python main.py
 | **String Checking** | `.startswith()`, `.endswith()`, `.isdigit()`, `.isalpha()` | Validation |
 | **Slicing** | `[start:end:step]` | Extracting parts of strings |
 
+### Day 09 - Object-Oriented Programming
+| Concept | Description |
+|---------|-------------|
+| **Class** | Blueprint for objects |
+| **Object** | Instance of a class |
+| **Inheritance** | Reuse and extend class behavior |
+| **Encapsulation** | Control access to data |
+| **Polymorphism** | Same interface, different behavior |
+| **Dunder Methods** | Special methods like `__init__`, `__str__` |
+
+### Day 10 - File Handling
+| Concept | Description |
+|---------|-------------|
+| **File Modes** | `r`, `w`, `a`, `x`, `rb`, `wb` |
+| **File Pointer** | `tell()` and `seek()` |
+| **Pathlib** | Modern path handling API |
+| **CSV** | Read/write structured tabular data |
+| **JSON** | Read/write structured data |
+| **Atomic Write** | Write temp then replace |
+
 ---
 
 ## 📝 Notes on Each Day
@@ -379,6 +440,24 @@ python main.py
 - Practical examples for real-world string manipulation tasks
 - [Full Notes →](Day-08/notes-08.md)
 
+### Day 09
+- Comprehensive guide to object-oriented programming in Python
+- Classes and objects with attributes and methods
+- Encapsulation with public, protected, and private members
+- Single and multiple inheritance with `super()`
+- Polymorphism and method overriding
+- Special methods (`__init__`, `__str__`, `__repr__`, etc.)
+- [Full Notes →](Day-09/notes-09.md)
+
+### Day 10
+- Complete guide to file handling in Python
+- Reading and writing files with context managers
+- File modes, binary files, and file pointer operations
+- `pathlib` for cleaner path operations
+- CSV and JSON read/write patterns
+- Safe patterns: config files, CSV to JSON, atomic writes
+- [Full Notes →](Day-10/notes-10.md)
+
 ---
 
 ## 🎓 Best Practices for Learning
@@ -458,7 +537,8 @@ cd ..
 - [x] Day 06 - Functions
 - [x] Day 07 - Data Structures (Lists, Tuples, Dicts, Sets)
 - [x] Day 08 - String Manipulation
-- [ ] Day 09 - Coming Soon...
+- [x] Day 09 - Object-Oriented Programming (OOP)
+- [x] Day 10 - File Handling
 - [ ] ... (More days coming)
 
 ---
@@ -492,5 +572,5 @@ This repository is designed to provide a structured, progressive learning path f
 
 ---
 
-*Last Updated: February 15, 2026*
+*Last Updated: February 17, 2026*
 *Author: Pulok Singha*
